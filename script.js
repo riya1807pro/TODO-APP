@@ -9,8 +9,13 @@ document.querySelector('#add').addEventListener("click", () => {
     let label = document.createElement('label');
     label.textContent = input;
 
+    let date = document.createElement('date');
+    date.className="date";
+    date.textContent = new Date().toLocaleString()
+
     listItem.appendChild(task);
     listItem.appendChild(label);
+    listItem.appendChild(date);
 
     // Add cross element
     let cross = document.createElement('span');

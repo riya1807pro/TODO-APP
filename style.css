@@ -97,3 +97,6 @@ button{
   cursor: pointer;
   font-weight: 700;
 }
+.date{
+  font-size: 10px;
+}
